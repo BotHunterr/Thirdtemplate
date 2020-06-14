@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    padding: 20px 0px;
+    letter-spacing: 2px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* ****************style for header part****************** */
+.header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/headerbg.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: 100% 100%;
+    height: 100vh;
+
+}
+.navbar li a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    padding: 0px 25px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.navbar{
+    border-bottom: 1px solid #c3aeaa;
+    transition: 0.3s;
+}
+.headlogo i{
+    font-size: 15px !important;
+    
+}
+
+.dropdown-menu{
+    width: 40px;
+}
+.dropdown-item{
+    background-color: #e38f6b;
+    margin: 10px 0px;
+}
+.navbar a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.navbar li a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.headtext{
+    padding: 130px 0px;
+    color: white;
+}
+.headtext i{
+    font-size: 70px;
+}
+.headtext p{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mmm{
+    margin-top: -65px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 87px;
+}
+/* *************************style of heading ends******************/
+
+.sectionone{
+    padding: 90px 30px;
+
+}
+.sectionone h3{
+    padding: 30px 0px;
+    letter-spacing: 5px;
+}
+.sectionone p{
+    line-height: 2;
+}
+
+.sectionsecond{
+    background-color: #f8f8f8;
+    padding: 80px 0px;
+}
+.sectionsecond h3{
+    letter-spacing: 7px;
+    padding: 15px 0px;
+}
+.sectionsecond h5{
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    
+}
+.sectionsecond p{
+    line-height: 2;
+}
+.ss ul li{
+    display: inline;
+}
+.ss img{
+    width: 100%;
+}
+.mid{
+    padding: 40px 0px;
+}
+.parallax {
+    min-height: 500px;
+    background: transparent;
+}
+.onetext, .twotext, .threetext{
+    color: white;
+     padding: 160px 0px;
+}
+.onetext h3, .twotext h3, .threetext h3{
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+.onetext .btn, .twotext .btn, .threetext .btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 3px;
+    padding: 12px 23px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+.btn{
+    transition: 0.3s;
+}
+.onetext .btn:hover, .twotext .btn:hover, .threetext .btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.ventt{
+    height: 600px;
+    background: url(../img/vent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.venttext{
+    padding: 120px 120px;
+}
+.venttext h3{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.venttext ul{
+    padding-left: 20px;
+}
+.venttext p, .venttext li{
+    font-size: 14px;
+    color: #66668f;
+}
+.venttext .btn{
+    border-radius: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 12px 23px;
+    margin: 20px 0px;
+}
+.lock{
+    background-color: #91a05c;
+}
+.locktext{
+    color: white;
+    display: block;
+    padding: 30px 300px;
+    
+}
+.locktext .btn{
+    border-radius: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    border: 1px solid white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 12px 23px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+
+}
+.leftbtn, .rightbtn{
+    margin: 5px 10px;
+    display: inline;
+}
+
+.locktext .btn:hover{
+    background-color: white;
+    color: #91a05c;
+}
