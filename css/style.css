@@ -39,7 +39,7 @@ p{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    padding: 0px 25px !important;
+    padding: 0px 20px !important;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
@@ -234,3 +234,42 @@ p{
     background-color: white;
     color: #91a05c;
 }
+.footer{
+    padding: 80px 0px;
+    color: white;
+    background-color: #292929;
+}
+.footer h3, .footer h4{
+    font-family: 'Raleway', sans-serif;
+}
+.footer h4{
+    border-bottom: 1px solid #474747;
+    padding: 15px 0px;
+}
+.footer h5{
+    font-size: 14px;
+}
+.grey p{
+    color: #d3d3d3;
+    font-size: 14px;
+}
+.plan p, .plann p{
+    display: inline;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 13px;
+}
+.plann{
+    padding: 25px 0px;
+}
+.first ul li{
+    display: inline;
+}
+.first img{
+    width: 80px;
+    
+}
+/* .red{
+ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+   
+} */
