@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 body{
+    max-width: 100%;
     overflow-x: hidden;
 }
 h1{
     font-family: 'Caveat', cursive;
-    font-size: 100px;
+    font-size: 5rem;
     padding: 20px 0px;
     letter-spacing: 2px;
 }
@@ -77,7 +78,8 @@ p{
     transition: 0.3s;
 }
 .headtext{
-    padding: 130px 0px;
+    /* padding: 130px 0px; */
+    padding-top: 5rem;
     color: white;
 }
 .headtext i{
@@ -273,3 +275,18 @@ p{
  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
    
 } */
+@media(max-width: 500px){
+    .headtext h1{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    .headtext i{
+        font-size: 50px !important;
+    }
+    .headtext{
+        padding-left: 2rem;
+    }
+    .headtext p{
+        font-size: 16px;
+    }
+}
