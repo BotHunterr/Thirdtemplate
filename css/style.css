@@ -45,6 +45,10 @@ p{
     font-weight: bold;
     letter-spacing: 3px;
 }
+.navbar span i{
+    color: white;
+    cursor: pointer;
+}
 .navbar-brand{
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -66,7 +70,7 @@ p{
     width: 40px;
 }
 .dropdown-item{
-    background-color: #e38f6b;
+    background-color: #AF6E46;
     margin: 10px 0px;
 }
 .navbar a:hover{
@@ -275,6 +279,17 @@ p{
  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
    
 } */
+
+
+
+/* for responsiveness */
+
+@media(max-width: 1080px){
+    .venttext{
+        padding: 90px;
+    }
+}
+
 @media(max-width: 500px){
     .headtext h1{
         font-size: 3rem;
